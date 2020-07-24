@@ -2,16 +2,32 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.NavLink {
+
+text-align: center;
+border: #61dafb;
+border-radius: 3%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 200;
+padding:10%;
+color:whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Nav {
+
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,111,121,1) 36%, rgba(0,212,255,1) 100%); 
+  text-align: center;
+  border: #61dafb;
+  border-radius: 3%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 200;
+  padding:2%;
+  
   }
-}
+
+
+
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +44,28 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.imagemenu {
+
+  width:30%;
+  height:30%;
+  border-radius: 1rem;
+}
+
+ul.ulhorizontal {
+  display:flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+  
+}
+
+li.horizontal {
+  float: left;
+
+  font-family: Helvetica, Arial, sans-serif;
+  border: solid 5% #86BB71;
 }
