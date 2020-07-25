@@ -12,7 +12,7 @@ body {
     text-align: center;
     background-image: linear-gradient(black, white, green);
 
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 12s; /* Firefox < 16 */
         -ms-animation: fadein 12s; /* Internet Explorer */
@@ -149,4 +149,9 @@ a:hover + .box,.box:hover{
 @keyframes example {
     from {background-color:black;}
     to {background-color: rgba(9,111,121,1);}
+  }
+
+  p.bottom {
+
+    align-self: baseline;
   }

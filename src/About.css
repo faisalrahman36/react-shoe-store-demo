@@ -3,6 +3,7 @@ div {
     color: #011a32;
     font: 16px/1.25 'Raleway', sans-serif;
     text-align: center;
+    height: 100%;
 }
 
 h2 {
@@ -12,5 +13,7 @@ h2 {
 body {
 
     background-color: #fdf9fd;
+    height:100%;
+
 
 }
