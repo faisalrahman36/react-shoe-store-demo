@@ -99,7 +99,7 @@ class NotFound extends Component {
       img:
       "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
       
-      description: "This is some description of the shoe. Essential the same shoe as Racer blue but with higher price."
+      description: "This is some description of the shoe. Basically the same shoe as Racer blue but with higher price."
       ,price: 433.5   
       }
   };
