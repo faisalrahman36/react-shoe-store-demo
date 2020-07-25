@@ -11,7 +11,8 @@ import {
 } from "react-router-dom";
 import Home from './Home' ;
 import About from './About';
-import shoes from './shoes.js'
+import shoes from './shoes.js';
+import Footerc from './footerc';
 export default function App() {
   return (
     <Router>
@@ -22,7 +23,7 @@ export default function App() {
         </nav>
       <Routes>
         <Route path="/" element={
-<div><LaunchIndexFront /> <Home /></div>} />
+<div><LaunchIndexFront /> <Home /> <Footerc /></div>} />
         <Route path="about" element={<About />}/>
         <Route path="launch" element={<Launch />}>
            <Route path="/" element={<LaunchIndex />} />
